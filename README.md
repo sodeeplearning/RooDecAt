@@ -1,2 +1,2 @@
-# Root-Decomposition-based-Attention-RooDecAt-
+# Root-Decomposition-based-Attention
 Attention mechanism based on a root decomposition
