@@ -1,3 +1,5 @@
+"""Torch implementation of Root Decomposition based attention mechanism."""
+
 import torch
 
 from attention.torch_imp.utils import UpdateModel
@@ -8,7 +10,7 @@ class RooDecAttention (torch.nn.Module):
     def __init__(
             self,
             max_seq: int = 1024,
-            threshold: float = 0.1,
+            threshold: float = 0.5,
             d_model: int = 512,
             d_attn: int = 256,
             num_heads: int = 8,
